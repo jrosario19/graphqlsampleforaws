@@ -46,7 +46,7 @@ function App({ signOut }) {
       </Flex>
       {notes.map(note => <Flex alignItems={'center'}>
         <Text>{note.text}</Text>
-        <Button onClick={() => handleDeleteNote(note.id)}>Remove</Button>
+        <Button onClick={() => handleDeleteNote(note.id)}>Remove1</Button>
       </Flex>)}
       <Button onClick={handleCreateNote}>Add Note</Button>
     </Flex>
